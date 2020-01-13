@@ -1,0 +1,40 @@
+@charset "utf-8";
+body{background-color: lightcoral}
+<style>
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: navajowhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:underline;
+}
+
+li a:hover {
+  background-color: #00A4AC;
+}
+
+.active {
+  background-color: #00A3BD;
+}
+h1{color: yellow;}
+h2{color: lightblue}
+p{color: white}
